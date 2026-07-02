@@ -1,4 +1,18 @@
-venv/
+```gitignore id="a3e0d1"
+# Python
 __pycache__/
 *.pyc
+
+# Virtual environments
+venv/
+.venv/
+
+# Jupyter
 .ipynb_checkpoints/
+
+# Processed market data
+data/processed/
+
+# Logs
+*.log
+```
